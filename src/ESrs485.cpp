@@ -14,7 +14,7 @@
   Written by Dharmik for ElectroSoul Technologies.
   @section license License
   
-   Copyright 2020 ElectroSoul Technologies (https://electrosoul.in/)
+   Copyright (C) 2020 ElectroSoul Technologies (https://electrosoul.in/)
  
    This software is released under the GNU General Public License version 3,
    which covers the main part of arduino-cli.

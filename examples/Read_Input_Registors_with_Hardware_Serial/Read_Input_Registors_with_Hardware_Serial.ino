@@ -1,6 +1,6 @@
 /*
    This library can be used with both Software serial & hardware serial.
-   This example shows you how to Read Holding registors from slave device with slave ID 1 and baud 9600, Data bit 8, parity none, stop bit 1
+   This example shows you how to Read Input registors(FC=04) from slave device with slave ID 1 and baud 9600, Data bit 8, parity none, stop bit 1
 
    This example uses Hardware serial port
    You can directly use this code in our ElectroSoul ESP32-RS485 modbus gateway as it uses hardware Serial2 as UART - RS485 communication.
@@ -60,7 +60,7 @@ void loop() {
 
   // gain value will be multiplied with the orignal value recived from slave and after multiplying it will return
 
-  received_value = ES_RS485.read_holding_reg(1, address1, floats, big_endian, gain);
+  received_value = ES_RS485.read_input_reg(1, address1, floats, big_endian, gain); // uses Function Code 04
   if (received_value == -99.99)
   {
     Serial.println("TIME OUT ERROR.....");
