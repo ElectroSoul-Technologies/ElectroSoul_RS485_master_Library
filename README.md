@@ -18,8 +18,10 @@ Basic Requirenment are already set for an Industrial RS485 standards with the li
   * Parity   ❌
   * Stop Bit ❌
 
+
 **Direction Control for RS485 Transceivers**
   * Any digital pin can be used as Direction control pin ✅
+
 
 **RS485 Function Code(FC) Supported By Liberary**
   * Read Holding Registers (FC=03)✅  
@@ -34,6 +36,7 @@ Basic Requirenment are already set for an Industrial RS485 standards with the li
   * Read Input Status (FC=02)❌
   * Write Multiple Coils (FC=15)❌
   * Write Multiple Registers (FC=16)❌
+
 
 **Additional Liberary Features**
   * Can generate CRC ✅
