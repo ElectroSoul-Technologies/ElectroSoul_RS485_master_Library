@@ -1,0 +1,19 @@
+ESrs485	KEYWORD1
+
+read_holding_reg 	KEYWORD2
+read_input_reg 		KEYWORD2
+write_single_reg	KEYWORD2
+write_single_coil 	KEYWORD2
+CRC 			KEYWORD2
+big_endian 		KEYWORD2
+mid_little_endian 	KEYWORD2
+mid_big_endian 		KEYWORD2
+little_endian 		KEYWORD2
+floats 			KEYWORD2
+uint32 			KEYWORD2
+int32 			KEYWORD2
+uint16 			KEYWORD2
+int16 			KEYWORD2
+ON 			KEYWORD2
+OFF 			KEYWORD2
+TOGGLE 			KEYWORD2

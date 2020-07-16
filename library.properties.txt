@@ -1,0 +1,9 @@
+name= ElectroSoul RS485 Modbus Master library
+version=1.0.0
+author=Dharmik for ElectroSoul Technologies
+maintainer=ElectroSoul Technologies <techsupport@electrosoul.in>
+sentence=This library makes it easy to use an Industrial Standard RS485 on our Arduino platform.
+paragraph=This library makes it easy to use an Industrial Standard RS485 on our Arduino platform. Liberary is in continuous updation.
+category=Other
+url= https://github.com/ElectroSoul-Technologies/ElectroSoul_RS485_master_Liberary
+architectures=avr
