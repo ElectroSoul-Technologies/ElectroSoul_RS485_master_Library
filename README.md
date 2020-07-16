@@ -9,7 +9,7 @@ This Liberary makes it very simple to establish an Industrial Standard RS485 Mod
 ## Development Status
 Basic Requirenment are already set for an Industrial RS485 standards with the liberary so that you can directly use the library for your Arduino + RS485 projects.
 
-UART Support
+**UART Support**
   * Liberary supports Hardware UART ✅
   * Software Serial Liberary is also supported ✅
   * Can set different baud rates ✅
@@ -40,8 +40,7 @@ UART Support
   * You can set Timeout from .h file default 1 Sec (Note: if  Timeout ocures you will get -99.99) ✅
   
   
-Products that use this Library 
----------------------------------
+# Products that use this Library 
 
 * [ElectroSoul ESP32-RS485 Modbus Gateway ](https://www.tindie.com/products/electrosoul/esp32-rs485-modbus-gateway/)- ElectroSoul ESP32-RS485 Modbus Gateway is an small and low power easy to use Industrial standard RS485 Modebus Gateway. You can use our device and liberary to make your Arduino Based Industrial 4.0 project. 
 
