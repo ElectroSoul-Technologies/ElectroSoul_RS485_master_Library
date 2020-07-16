@@ -1,11 +1,12 @@
 # ElectroSoul RS485 Modbus Master Liberary for Arduino IDE
 
-This is ElectroSoul RS485 Modbus Master Liberary Liberary which works great and has beed tested on ElectroSoul ESP32-RS485 Modbus Gateway.
+This is ElectroSoul RS485 Modbus Master Liberary which works great and has beed tested on ElectroSoul ESP32-RS485 Modbus Gateway for Monitoring as well as Controlling various Devices over RS485.
 
 This Liberary makes it very simple to establish an Industrial Standard RS485 Modbus Communication with OUR ESP32-RS485 Modbus Gateway or any other Arduino compatible board in which you can use TTL to RS485 modules available.
-
+<!-- 
 # ElectroSoul ESP32-RS485 Modbus Gateway
 <a href="https://www.tindie.com/products/electrosoul/esp32-rs485-modbus-gateway/"><img src="https://electrosoul.in/product_photo/RS485_Gateway_WiFi/Picture1.png" title="ESP32-RS485 Modbus Gateway" alt="ESP32-RS485 Modbus Gateway"></a>
+-->
 ## Development Status
 Basic Requirenment are already set for an Industrial RS485 standards with the liberary so that you can directly use the library for your Arduino + RS485 projects.
 
@@ -42,10 +43,11 @@ Basic Requirenment are already set for an Industrial RS485 standards with the li
   
 # Products that use this Library 
 
-* [ElectroSoul ESP32-RS485 Modbus Gateway ](https://www.tindie.com/products/electrosoul/esp32-rs485-modbus-gateway/)- ElectroSoul ESP32-RS485 Modbus Gateway is an small and low power easy to use Industrial standard RS485 Modebus Gateway. You can use our device and liberary to make your Arduino Based Industrial 4.0 project. 
+* [ElectroSoul ESP32-RS485 Modbus Gateway](https://www.tindie.com/products/electrosoul/esp32-rs485-modbus-gateway/)- ElectroSoul ESP32-RS485 Modbus Gateway is an small and low power easy to use Industrial standard RS485 Modebus Gateway. You can use our device and liberary to make your Arduino Based Industrial 4.0 project.
+You can easily fetch data over RS485 and also write data with RS485 to any slave devices which supports RS485 such as MFM(multi function meter), AC drive, Solar Inverters etc.
 
 
-**Repository Contents
+**Repository Contents**
 
 * **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE. 
 * **/src** - Source files for the library (.cpp, .h).
