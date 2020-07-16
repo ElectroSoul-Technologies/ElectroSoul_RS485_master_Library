@@ -23,9 +23,11 @@ Basic Requirenment are already set for an Industrial RS485 standards with the li
 
 **RS485 Function Code(FC) Supported By Liberary**
   * Read Holding Registers (FC=03)✅
+  
      *read single register✅
      *read multiple register❌
   * Read Input Registers (FC=04)
+  
      *read single register✅
      *read multiple register❌
   * Write Single Coil (FC=05)✅
