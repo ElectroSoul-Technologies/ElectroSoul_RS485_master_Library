@@ -32,10 +32,15 @@
 #define ESrs485_h
 
 #include "Arduino.h"
+	
 #define USE_SW_SERIAL  // coment this if not using software serial library
+/*
 #if (defined(__AVR__) || defined(ESP8266)) && defined(USE_SW_SERIAL)
 #include <SoftwareSerial.h>
 #endif
+*/
+
+#include <SoftwareSerial.h>
 
 //#define read_holding_reg 3
 //#define read_input_reg 4
@@ -84,10 +89,13 @@ class ESrs485 {
     boolean write_single_coil(byte slave_id, unsigned int address, unsigned int writeValue); //uses FC=5
     unsigned int CRC(byte* buf, byte len, byte chk);
   private:
-
+  
+/*
 #if (defined(__AVR__) || defined(ESP8266)) && defined(USE_SW_SERIAL)
     SoftwareSerial *SwSerial;
 #endif
+*/
+    SoftwareSerial *SwSerial;
     HardwareSerial *HwSerial;
 
     void common_init(void);
@@ -102,7 +110,7 @@ class ESrs485 {
 
     unsigned int _crc; // variable used for crc function
     unsigned int _crcPos;// variable used for crc function
-    #define _timeout_time 1000  // change this if you want more timeout
+    #define _timeout_time 1000  // change this if you want more timeout	
     union
     {
       uint32_t ui32;
@@ -111,6 +119,7 @@ class ESrs485 {
       int16_t i16;
       float f;
     } Data;
+	
 };
 
 

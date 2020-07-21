@@ -53,6 +53,7 @@ ESrs485::ESrs485(SoftwareSerial*ser, int8_t enPin) {       // if using enable pi
 ESrs485::ESrs485(HardwareSerial *ser) {
   common_init();
   HwSerial = ser; // ...override HwSerial with value passed.
+
 }
 
 ESrs485::ESrs485(HardwareSerial *ser, int8_t enPin) {     // if using enable pin for RS485 and hardwareSerial.
@@ -65,6 +66,7 @@ ESrs485::ESrs485(HardwareSerial *ser, int8_t enPin) {     // if using enable pin
     digitalWrite(_enablePin, LOW);
     _en_pin = true;
   }
+
 }
 
 void ESrs485::begin(uint32_t baud)
@@ -132,7 +134,7 @@ void ESrs485::read_reg(byte slave_id, byte function_code, unsigned int address, 
   }
   else
   {
-    receiveByte = 8;
+    receiveByte = 9;
   }
 
   //address = address - offset;   // uncomment if you want address input to automatic -1 when callinf func.
@@ -206,7 +208,7 @@ void ESrs485::read_reg(byte slave_id, byte function_code, unsigned int address, 
     {
 
       HwSerial->readBytes(rxbuf, receiveByte);
-      //Serial.print(rxbuf[6],HEX);
+	  //Serial.print(rxbuf[6],HEX);
       //Serial.println(rxbuf[7],HEX);
       //Serial.println("");
     }
