@@ -54,6 +54,8 @@ You can easily fetch data over RS485 and also write data with RS485 to any slave
 * **library.properties** - General library properties for the Arduino package manager.
 * **LICENSE.md** - Library has open source license gpl-3.0
 * **keywords.txt** - Library Keywords file
+* **CODE_OF_CONDUCT.md** - Our code of conduct
+* **CONTRIBUTING.md** - contribution info
 * **README.MD**
 
 License Information
