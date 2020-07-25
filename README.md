@@ -2,10 +2,10 @@
 
 This is ElectroSoul RS485 Modbus Master Library which works great and has been tested on ElectroSoul ESP32-RS485 Modbus Gateway for Monitoring as well as Controlling various Devices over RS485.
 
-This Library make everything very simple for establishing an Industrial Standard RS485 Modbus Communication with our ESP32-RS485 Modbus Gateway or any other Arduino compatible board in which you can use TTL to RS485 modules available.
+This Library makes everything very simple for establishing an Industrial Standard RS485 Modbus Communication with our ESP32-RS485 Modbus Gateway or any other Arduino compatible board in which you can use TTL to RS485 modules available.
 <!-- -->
 ## Development Status
-Basic Requirenment are already set for an Industrial RS485 standards with the Library so that you can directly use the library for your Arduino + RS485 projects.
+Basic Requirement is already set for an Industrial RS485 standards with the Library so that you can directly use the library for your Arduino + RS485 projects.
 
 **UART Support**
   * Library supports Hardware UART ✅
@@ -17,7 +17,7 @@ Basic Requirenment are already set for an Industrial RS485 standards with the Li
 
 
 **Direction Control for RS485 Transceivers**
-  * Any digital pin can be used as Direction control pin ✅
+  * Any digital pin can be used as the Direction control pin ✅
 
 
 **RS485 Function Code(FC) Supported By Library**
@@ -38,13 +38,13 @@ Basic Requirenment are already set for an Industrial RS485 standards with the Li
 **Additional Library Features**
   * Can generate CRC ✅
   * Validate CRC in receiving packet (Note: if CRC fail you will get -88.88) ✅
-  * You can set Timeout from .h file default 1 Sec (Note: if  Timeout ocures you will get -99.99) ✅
+  * You can set Timeout from .h file default 1 Sec (Note: if  Timeout occurs you will get -99.99) ✅
   
   
 # Products that use this Library 
 
-* [ElectroSoul ESP32-RS485 Modbus Gateway](https://www.tindie.com/products/electrosoul/esp32-rs485-modbus-gateway/)- ElectroSoul ESP32-RS485 Modbus Gateway is an small and low power easy to use Industrial standard RS485 Modebus Gateway. You can use our device and liberary to make your Arduino Based Industrial 4.0 project.
-You can easily fetch data over RS485 and also write data with RS485 to any slave devices which supports RS485 such as MFM(multi function meter), AC drive, Solar Inverters etc. For more technical detail about [ElectroSoul ESP32-RS485 Gateway.](https://github.com/ElectroSoul-Technologies/ESP32-RS485_Gateway)
+* [ElectroSoul ESP32-RS485 Modbus Gateway](https://www.tindie.com/products/electrosoul/esp32-rs485-modbus-gateway/)- ElectroSoul ESP32-RS485 Modbus Gateway is a small and low power easy to use Industrial standard RS485 Modbus Gateway. You can use our device and library to make your Arduino Based Industrial 4.0 project.
+You can easily fetch data over RS485 and also write data with RS485 to any slave devices which support RS485 such as MFM(multi-function meter), AC drive, Solar Inverters, etc. For more technical detail about [ElectroSoul ESP32-RS485 Gateway.](https://github.com/ElectroSoul-Technologies/ESP32-RS485_Gateway)
 
 
 **Repository Contents**
@@ -61,7 +61,7 @@ You can easily fetch data over RS485 and also write data with RS485 to any slave
 License Information
 -------------------
 
-This Liberary is _**open source**_! 
+This Library is _**open source**_! 
 
 Please review the LICENSE.md file for license information. 
 
